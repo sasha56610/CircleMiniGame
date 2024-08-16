@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(252, 175, 87);
+}
+button{
+  border: 5px solid;
+  border-radius: 100px;
+  font-size: 90px;
+  align-items: center;
+  padding: 50px;
+  border-color: white;
+  background-color: greenyellow;
+  display: flex;
+  margin: auto;
+  margin-top: 300px;
+  transition: scale 0.5s;
+  box-shadow: 40px 20px 1px 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  scale: 1.2;
+}
